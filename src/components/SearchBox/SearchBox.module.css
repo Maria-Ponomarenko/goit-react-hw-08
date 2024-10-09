@@ -1,0 +1,11 @@
+.box {
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 420px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}

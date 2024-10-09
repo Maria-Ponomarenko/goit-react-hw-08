@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  border: 2px solid #020202;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+.fieldWrap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.field {
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  align-self: center;
+}
+
+.error {
+  color: rgba(255, 0, 81);
+  position: absolute;
+  bottom: -15px;
+  left: 5px;
+}
